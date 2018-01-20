@@ -4,14 +4,13 @@ import AddNumber from './components/AddNumber.jsx'
 import axios from 'axios';
 
 class App extends React.Component {
-
   constructor(props){
     super(props);
     this.state = {
       guessNumber: null
     }
   }
-
+   
   handleNumberChange(event) {
     this.setState({guessNumber: event.target.value});
   }
@@ -39,7 +38,7 @@ class App extends React.Component {
       />
     );
   }
-  
+
 }
 
 ReactDOM.render(

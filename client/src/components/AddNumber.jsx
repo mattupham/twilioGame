@@ -6,8 +6,8 @@ class AddNumber extends React.Component {
       <div>
         <form 
           onSubmit={this.props.handleNumberInputClick}>
-          <input type="number" placeholder="enter a number" onChange={this.props.handleNumberChange}/>
-          <input type="submit" value="Confirm Number!"/>
+          <input type="text" placeholder="Enter a Number" onChange={this.props.handleNumberChange}/>
+          <input type="submit" value="Click to Confirm!"/>
         </form>
       </div>
     );
